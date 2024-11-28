@@ -3,7 +3,9 @@
 	"version": "1.0.0",
 	"main": "expo-router/entry",
 	"scripts": {
-		"android": "expo run:android",
+		"start": "expo start",
+		"android": "expo start --android",
+		"web": "expo start --web",
 		"ios": "expo run:ios",
 		"lint": "eslint ."
 	},
